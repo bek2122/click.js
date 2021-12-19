@@ -1,0 +1,17 @@
+.content {
+width: 400px;
+height: 400px;
+background: tan;
+border-radius: 50%;
+transition: 3s;
+}
+
+.content.circle {
+    background: black;
+    border-radius: 0%;
+}
+
+.box {
+    display: flex;
+   justify-content: center;
+}
